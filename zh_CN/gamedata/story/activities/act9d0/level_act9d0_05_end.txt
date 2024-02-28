@@ -13,7 +13,7 @@
 虽然细小很多，却同样强盛。也许他们这样的人无论力量大小，都拥有着近似的部分。
 这股愤怒催生了整合运动，让无数追随者趋之若鹜。
 但很快......就改变了。
-我们每天的工作，变成了煽动，加害和挑拨。
+我们每天的工作，变成了煽动、加害和挑拨。
 这不再是一场感染者的革命——
 ——而是我们在卡兹戴尔目睹过无数次的，被过度操纵的战争阴谋。
 [Dialog]
@@ -135,18 +135,18 @@
 [Character(name="char_1002_nsabr_2")]
 [name="整合运动士兵"]  刚才发生的袭击波及了这里，萨卡兹雇佣兵小队长之一的伊内丝，死亡。
 [Character(name="char_1002_nsabr_2", name2="char_1011_wizard_1", focus=2)]
-[name="坚毅的整合运动术士"]  不去确认她的尸体？
+[name="坚毅的整合运动术师"]  不去确认她的尸体？
 [Character(name="char_1002_nsabr_2", name2="char_1011_wizard_1", focus=1)]
 [name="整合运动士兵"]  ......刚才的战斗动静太大，已经有人被吸引过来了，立刻炸毁这条街道。
 [Character(name="char_1002_nsabr_2", name2="char_1011_wizard_1", focus=2)]
-[name="坚毅的整合运动术士"]  是。
+[name="坚毅的整合运动术师"]  是。
 [Character(name="char_1002_nsabr_2")]
 [name="整合运动士兵"]  等等。
 [Character(name="char_1002_nsabr_2", name2="char_1011_wizard_1", focus=1)]
 [name="整合运动士兵"]  整合运动也要有人......和她一并奋战到了最后。
 [Character(name="char_1002_nsabr_2", name2="char_1011_wizard_1", focus=2)]
-[name="坚毅的整合运动术士"]  ......我明白了。
-[name="坚毅的整合运动术士"]  照顾好我的家人，他们还在城里。
+[name="坚毅的整合运动术师"]  ......我明白了。
+[name="坚毅的整合运动术师"]  照顾好我的家人，他们还在城里。
 [Character(name="char_1002_nsabr_2", name2="char_1011_wizard_1", focus=1)]
 [name="整合运动士兵"]  当然，我向你许诺。
 [Dialog]

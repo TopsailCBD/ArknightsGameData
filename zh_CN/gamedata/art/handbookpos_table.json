@@ -10,7 +10,6 @@
             "npc_003_kalts",
             "char_1011_lava2",
             "char_171_bldsk",
-            "char_253_greyy",
             "char_298_susuro",
             "char_2013_cerber",
             "char_181_flower",
@@ -38,6 +37,22 @@
             "char_002_amiya",
             "char_400_weedy",
             "char_304_zebra",
+            "char_1013_chen2",
+            "char_1021_kroos2",
+            "char_492_quercu",
+            "char_4041_chnut",
+            "char_1024_hbisc2",
+            "char_1027_greyy2",
+            "char_1026_gvial2",
+            "char_497_ctable",
+            "char_4055_bgsnow",
+            "char_513_apionr",
+            "char_4071_peper",
+            "char_4091_ulika",
+            "char_491_humus",
+            "char_4087_ines",
+            "char_4093_frston",
+            "char_4088_hodrer",
             "char_003_kalts"
           ],
           "forceId": "rhodes",
@@ -116,15 +131,19 @@
           "color": "0098dc",
           "charList": [
             "char_017_huang",
-            "char_391_rosmon"
+            "char_391_rosmon",
+            "char_510_amedic",
+            "char_509_acast",
+            "char_508_aguard",
+            "char_511_asnipe"
           ],
           "forceId": "elite",
           "pos": {
-            "x": -599.9997,
-            "y": 173.205
+            "x": -600.0,
+            "y": 519.615234
           },
           "isThisGroup": true,
-          "connectPos": 3,
+          "connectPos": 5,
           "focusPos": {
             "x": 383.336578,
             "y": -37.3315659
@@ -251,6 +270,42 @@
             "y": -573.4087
           },
           "colorBlocks": []
+        },
+        {
+          "color": "03f0f0",
+          "charList": [
+            "char_253_greyy"
+          ],
+          "forceId": "bolivar",
+          "pos": {
+            "x": -1800.0,
+            "y": -866.0254
+          },
+          "isThisGroup": false,
+          "connectPos": 3,
+          "focusPos": {
+            "x": -303.3699,
+            "y": 85.0263
+          },
+          "colorBlocks": []
+        },
+        {
+          "color": "bfbfbf",
+          "charList": [
+            "char_113_cqbw"
+          ],
+          "forceId": "babel",
+          "pos": {
+            "x": -1800.0,
+            "y": -519.615234
+          },
+          "isThisGroup": false,
+          "connectPos": 3,
+          "focusPos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "colorBlocks": []
         }
       ],
       "charList": [
@@ -355,7 +410,13 @@
             "x": 0.0,
             "y": 519.615
           },
-          "connectionList": [],
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_1013_chen2",
+              "forceId": null
+            }
+          ],
           "haveOutLine": true
         },
         {
@@ -369,6 +430,11 @@
             {
               "direction": 0,
               "charId": "char_376_therex",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4093_frston",
               "forceId": null
             },
             {
@@ -408,6 +474,11 @@
             "y": 86.6025
           },
           "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4093_frston",
+              "forceId": null
+            },
             {
               "direction": 3,
               "charId": "char_285_medic2",
@@ -456,7 +527,7 @@
             },
             {
               "direction": 5,
-              "charId": "char_158_milu",
+              "charId": "char_4087_ines",
               "forceId": null
             }
           ],
@@ -466,27 +537,27 @@
           "charId": "char_158_milu",
           "scale": 1.0,
           "pos": {
-            "x": -1349.99939,
-            "y": -606.2175
+            "x": -900.0,
+            "y": -866.0254
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_497_ctable",
+              "forceId": null
+            },
+            {
               "direction": 1,
-              "charId": "char_355_ethan",
+              "charId": "char_492_quercu",
               "forceId": null
             },
             {
               "direction": 2,
-              "charId": "char_219_meteo",
+              "charId": "char_4055_bgsnow",
               "forceId": null
             },
             {
-              "direction": 3,
-              "charId": "char_311_mudrok",
-              "forceId": null
-            },
-            {
-              "direction": 4,
+              "direction": 5,
               "charId": "char_131_flameb",
               "forceId": null
             }
@@ -582,6 +653,11 @@
               "direction": 2,
               "charId": "char_187_ccheal",
               "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_1026_gvial2",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -605,6 +681,11 @@
               "forceId": null
             },
             {
+              "direction": 4,
+              "charId": "char_1026_gvial2",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": "char_181_flower",
               "forceId": null
@@ -616,8 +697,8 @@
           "charId": "char_130_doberm",
           "scale": 1.0,
           "pos": {
-            "x": -749.999634,
-            "y": -433.0125
+            "x": -750.0,
+            "y": -433.0127
           },
           "connectionList": [
             {
@@ -637,7 +718,7 @@
             },
             {
               "direction": 3,
-              "charId": "char_328_cammou",
+              "charId": "char_4041_chnut",
               "forceId": null
             },
             {
@@ -721,32 +802,6 @@
           "haveOutLine": true
         },
         {
-          "charId": "char_253_greyy",
-          "scale": 1.0,
-          "pos": {
-            "x": -900.0,
-            "y": -692.8203
-          },
-          "connectionList": [
-            {
-              "direction": 0,
-              "charId": "char_2013_cerber",
-              "forceId": null
-            },
-            {
-              "direction": 1,
-              "charId": "char_400_weedy",
-              "forceId": null
-            },
-            {
-              "direction": 2,
-              "charId": "char_350_surtr",
-              "forceId": null
-            }
-          ],
-          "haveOutLine": true
-        },
-        {
           "charId": "char_298_susuro",
           "scale": 1.0,
           "pos": {
@@ -802,7 +857,7 @@
             },
             {
               "direction": 4,
-              "charId": "char_328_cammou",
+              "charId": "char_4041_chnut",
               "forceId": null
             },
             {
@@ -879,7 +934,7 @@
             },
             {
               "direction": 4,
-              "charId": "char_158_milu",
+              "charId": "char_4087_ines",
               "forceId": null
             }
           ],
@@ -889,18 +944,23 @@
           "charId": "char_131_flameb",
           "scale": 1.0,
           "pos": {
-            "x": -1349.99939,
-            "y": -779.4225
+            "x": -1050.0,
+            "y": -952.6279
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4071_peper",
+              "forceId": null
+            },
+            {
               "direction": 1,
-              "charId": "char_158_milu",
+              "charId": "char_497_ctable",
               "forceId": null
             },
             {
               "direction": 2,
-              "charId": "char_311_mudrok",
+              "charId": "char_158_milu",
               "forceId": null
             }
           ],
@@ -931,7 +991,7 @@
             },
             {
               "direction": 5,
-              "charId": "char_328_cammou",
+              "charId": "char_4041_chnut",
               "forceId": null
             }
           ],
@@ -962,7 +1022,12 @@
             },
             {
               "direction": 3,
-              "charId": "char_253_greyy",
+              "charId": "char_492_quercu",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_497_ctable",
               "forceId": null
             },
             {
@@ -1044,7 +1109,7 @@
             },
             {
               "direction": 4,
-              "charId": "char_253_greyy",
+              "charId": "char_492_quercu",
               "forceId": null
             },
             {
@@ -1059,8 +1124,8 @@
           "charId": "char_258_podego",
           "scale": 1.0,
           "pos": {
-            "x": -149.999924,
-            "y": -779.4225
+            "x": -150.0,
+            "y": -779.422852
           },
           "connectionList": [
             {
@@ -1085,33 +1150,38 @@
           "charId": "char_328_cammou",
           "scale": 1.0,
           "pos": {
-            "x": -599.9997,
-            "y": -519.615
+            "x": -600.0,
+            "y": -692.8203
           },
           "connectionList": [
             {
               "direction": 0,
-              "charId": "char_130_doberm",
+              "charId": "char_350_surtr",
               "forceId": null
             },
             {
               "direction": 1,
-              "charId": "char_151_myrtle",
+              "charId": "char_4041_chnut",
               "forceId": null
             },
             {
               "direction": 2,
-              "charId": "char_367_swllow",
-              "forceId": null
-            },
-            {
-              "direction": 3,
               "charId": "char_304_zebra",
               "forceId": null
             },
             {
+              "direction": 3,
+              "charId": "char_513_apionr",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4091_ulika",
+              "forceId": null
+            },
+            {
               "direction": 5,
-              "charId": "char_350_surtr",
+              "charId": "char_4055_bgsnow",
               "forceId": null
             }
           ],
@@ -1137,12 +1207,22 @@
             },
             {
               "direction": 2,
+              "charId": "char_4041_chnut",
+              "forceId": null
+            },
+            {
+              "direction": 3,
               "charId": "char_328_cammou",
               "forceId": null
             },
             {
+              "direction": 4,
+              "charId": "char_4055_bgsnow",
+              "forceId": null
+            },
+            {
               "direction": 5,
-              "charId": "char_253_greyy",
+              "charId": "char_492_quercu",
               "forceId": null
             }
           ],
@@ -1158,7 +1238,7 @@
           "connectionList": [
             {
               "direction": 0,
-              "charId": "char_158_milu",
+              "charId": "char_4087_ines",
               "forceId": null
             },
             {
@@ -1172,8 +1252,18 @@
               "forceId": null
             },
             {
+              "direction": 3,
+              "charId": "char_497_ctable",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4071_peper",
+              "forceId": null
+            },
+            {
               "direction": 5,
-              "charId": "char_131_flameb",
+              "charId": "char_4088_hodrer",
               "forceId": null
             }
           ],
@@ -1187,6 +1277,11 @@
             "y": 259.8075
           },
           "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_1024_hbisc2",
+              "forceId": null
+            },
             {
               "direction": 3,
               "charId": "char_120_hibisc",
@@ -1208,6 +1303,11 @@
             "y": 86.6025
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_511_asnipe",
+              "forceId": null
+            },
             {
               "direction": 3,
               "charId": "char_391_rosmon",
@@ -1374,6 +1474,11 @@
               "forceId": null
             },
             {
+              "direction": 1,
+              "charId": "char_511_asnipe",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_017_huang",
               "forceId": null
@@ -1410,6 +1515,16 @@
               "forceId": null
             },
             {
+              "direction": 1,
+              "charId": "char_508_aguard",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_511_asnipe",
+              "forceId": null
+            },
+            {
               "direction": 3,
               "charId": "char_503_rang",
               "forceId": null
@@ -1435,6 +1550,16 @@
             "y": 173.205
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_1021_kroos2",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_508_aguard",
+              "forceId": null
+            },
             {
               "direction": 3,
               "charId": "char_123_fang",
@@ -1464,6 +1589,11 @@
             {
               "direction": 0,
               "charId": "char_120_hibisc",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_1021_kroos2",
               "forceId": null
             },
             {
@@ -1500,6 +1630,16 @@
             {
               "direction": 0,
               "charId": "char_1011_lava2",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_1024_hbisc2",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_1021_kroos2",
               "forceId": null
             },
             {
@@ -1801,8 +1941,8 @@
           "charId": "char_282_catap",
           "scale": 1.0,
           "pos": {
-            "x": -1199.99939,
-            "y": -173.205
+            "x": -1200.0,
+            "y": -173.205078
           },
           "connectionList": [
             {
@@ -2003,12 +2143,642 @@
           "connectionList": [
             {
               "direction": 0,
-              "charId": "char_328_cammou",
+              "charId": "char_4041_chnut",
               "forceId": null
             },
             {
               "direction": 1,
               "charId": "char_367_swllow",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_513_apionr",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_328_cammou",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1013_chen2",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 433.0127
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_010_chen",
+              "forceId": null
+            },
+            {
+              "direction": 0,
+              "charId": "npc_010_chen",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1021_kroos2",
+          "scale": 1.0,
+          "pos": {
+            "x": -1050.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_1024_hbisc2",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_122_beagle",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_124_kroos",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_120_hibisc",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_492_quercu",
+          "scale": 1.0,
+          "pos": {
+            "x": -900.0,
+            "y": -692.8203
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_2013_cerber",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_400_weedy",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_350_surtr",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4055_bgsnow",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_158_milu",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_497_ctable",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4041_chnut",
+          "scale": 1.0,
+          "pos": {
+            "x": -600.0,
+            "y": -519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_130_doberm",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_151_myrtle",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_367_swllow",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_304_zebra",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_328_cammou",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_350_surtr",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1024_hbisc2",
+          "scale": 1.0,
+          "pos": {
+            "x": -1200.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_1021_kroos2",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_120_hibisc",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_1011_lava2",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1027_greyy2",
+          "scale": 1.0,
+          "pos": {
+            "x": -1350.0,
+            "y": -952.6279
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4088_hodrer",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4071_peper",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_253_greyy",
+          "scale": 1.0,
+          "pos": {
+            "x": -1650.0,
+            "y": -952.6279
+          },
+          "connectionList": [],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1026_gvial2",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": -952.6279
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_181_flower",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_187_ccheal",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4055_bgsnow",
+          "scale": 1.0,
+          "pos": {
+            "x": -750.0,
+            "y": -779.422852
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_492_quercu",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_350_surtr",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_328_cammou",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4091_ulika",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_158_milu",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_497_ctable",
+          "scale": 1.0,
+          "pos": {
+            "x": -1050.0,
+            "y": -779.422852
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_311_mudrok",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_2013_cerber",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_492_quercu",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_158_milu",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_131_flameb",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4071_peper",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_513_apionr",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": -779.422852
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_328_cammou",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_304_zebra",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_491_humus",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4091_ulika",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_511_asnipe",
+          "scale": 1.0,
+          "pos": {
+            "x": -600.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_508_aguard",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_510_amedic",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_017_huang",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_503_rang",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_123_fang",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_510_amedic",
+          "scale": 1.0,
+          "pos": {
+            "x": -600.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_509_acast",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_511_asnipe",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_508_aguard",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_508_aguard",
+          "scale": 1.0,
+          "pos": {
+            "x": -750.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_509_acast",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_510_amedic",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_511_asnipe",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_123_fang",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_122_beagle",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_509_acast",
+          "scale": 1.0,
+          "pos": {
+            "x": -750.0,
+            "y": 433.0127
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_510_amedic",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_508_aguard",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4071_peper",
+          "scale": 1.0,
+          "pos": {
+            "x": -1200.0,
+            "y": -866.0254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4088_hodrer",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_311_mudrok",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_497_ctable",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_131_flameb",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_1027_greyy2",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4091_ulika",
+          "scale": 1.0,
+          "pos": {
+            "x": -600.0,
+            "y": -866.0254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4055_bgsnow",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_328_cammou",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_513_apionr",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_491_humus",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_491_humus",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": -952.6279
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4091_ulika",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_513_apionr",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4087_ines",
+          "scale": 1.0,
+          "pos": {
+            "x": -1350.0,
+            "y": -606.2178
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_355_ethan",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_219_meteo",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_311_mudrok",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4088_hodrer",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_113_cqbw",
+          "scale": 1.0,
+          "pos": {
+            "x": -1650.0,
+            "y": -606.2178
+          },
+          "connectionList": [],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4093_frston",
+          "scale": 1.0,
+          "pos": {
+            "x": 600.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_285_medic2",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_376_therex",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4088_hodrer",
+          "scale": 1.0,
+          "pos": {
+            "x": -1350.0,
+            "y": -779.422852
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4087_ines",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_311_mudrok",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4071_peper",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_1027_greyy2",
               "forceId": null
             }
           ],
@@ -2037,7 +2807,13 @@
             "x": 0.0,
             "y": 519.615
           },
-          "connectionList": [],
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_1013_chen2",
+              "forceId": null
+            }
+          ],
           "haveOutLine": true
         }
       ],
@@ -2187,34 +2963,94 @@
           "char2": "char_002_amiya"
         },
         {
-          "index": 560,
+          "index": 29,
+          "lineType": 0,
+          "char1": "char_010_chen",
+          "char2": "char_1013_chen2"
+        },
+        {
+          "index": 30,
+          "lineType": 0,
+          "char1": "char_1021_kroos2",
+          "char2": "char_124_kroos"
+        },
+        {
+          "index": 31,
+          "lineType": 0,
+          "char1": "char_1024_hbisc2",
+          "char2": "char_120_hibisc"
+        },
+        {
+          "index": 32,
+          "lineType": 0,
+          "char1": "char_253_greyy",
+          "char2": "char_1027_greyy2"
+        },
+        {
+          "index": 33,
+          "lineType": 0,
+          "char1": "char_1026_gvial2",
+          "char2": "char_187_ccheal"
+        },
+        {
+          "index": 34,
+          "lineType": 0,
+          "char1": "char_328_cammou",
+          "char2": "char_4091_ulika"
+        },
+        {
+          "index": 35,
+          "lineType": 0,
+          "char1": "char_113_cqbw",
+          "char2": "char_4087_ines"
+        },
+        {
+          "index": 36,
+          "lineType": 0,
+          "char1": "char_4088_hodrer",
+          "char2": "char_4087_ines"
+        },
+        {
+          "index": 37,
+          "lineType": 0,
+          "char1": "char_4088_hodrer",
+          "char2": "char_113_cqbw"
+        },
+        {
+          "index": 52,
           "lineType": 0,
           "char1": "char_002_amiya",
           "char2": "char_003_kalts"
         },
         {
-          "index": 561,
+          "index": 53,
           "lineType": 0,
           "char1": "char_003_kalts",
           "char2": "npc_001_doctor"
         },
         {
-          "index": 562,
+          "index": 54,
           "lineType": 0,
           "char1": "char_003_kalts",
           "char2": "char_345_folnic"
         },
         {
-          "index": 563,
+          "index": 55,
           "lineType": 0,
           "char1": "char_144_red",
           "char2": "char_003_kalts"
         },
         {
-          "index": 564,
+          "index": 56,
           "lineType": 0,
           "char1": "npc_010_chen",
           "char2": "char_002_amiya"
+        },
+        {
+          "index": 57,
+          "lineType": 0,
+          "char1": "npc_010_chen",
+          "char2": "char_1013_chen2"
         }
       ],
       "minScale": 0.5,
@@ -2228,9 +3064,12 @@
           "charList": [
             "char_265_sophia",
             "char_204_platnm",
+            "char_126_shotst",
             "char_237_gravel",
+            "char_1014_nearl2",
             "char_423_blemsh",
-            "char_126_shotst"
+            "char_4064_mlynar",
+            "char_4032_provs"
           ],
           "forceId": "kazimierz",
           "pos": {
@@ -2253,6 +3092,11 @@
               },
               "color": "1ae4b2",
               "connectionList": [
+                {
+                  "direction": 1,
+                  "charId": "char_430_fartth",
+                  "forceId": null
+                },
                 {
                   "direction": 3,
                   "charId": "char_237_gravel",
@@ -2284,6 +3128,28 @@
             "y": -296.224
           },
           "colorBlocks": []
+        },
+        {
+          "color": "ca3625",
+          "charList": [
+            "char_430_fartth",
+            "char_431_ashlok",
+            "char_4000_jnight",
+            "char_496_wildmn",
+            "char_420_flamtl"
+          ],
+          "forceId": "pinus",
+          "pos": {
+            "x": -150.0,
+            "y": 606.2178
+          },
+          "isThisGroup": true,
+          "connectPos": 5,
+          "focusPos": {
+            "x": 367.062653,
+            "y": -509.228455
+          },
+          "colorBlocks": []
         }
       ],
       "charList": [
@@ -2303,6 +3169,11 @@
             {
               "direction": 3,
               "charId": "char_423_blemsh",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4032_provs",
               "forceId": null
             },
             {
@@ -2346,6 +3217,11 @@
               "direction": 2,
               "charId": "char_204_platnm",
               "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4032_provs",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -2358,6 +3234,11 @@
             "y": 346.41
           },
           "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_4064_mlynar",
+              "forceId": null
+            },
             {
               "direction": 4,
               "charId": "char_423_blemsh",
@@ -2376,7 +3257,7 @@
           "scale": 1.0,
           "pos": {
             "x": 0.0,
-            "y": 173.205
+            "y": 173.205078
           },
           "connectionList": [
             {
@@ -2387,6 +3268,21 @@
             {
               "direction": 1,
               "charId": "char_265_sophia",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4064_mlynar",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_1014_nearl2",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4032_provs",
               "forceId": null
             }
           ],
@@ -2400,6 +3296,209 @@
             "y": 259.8075
           },
           "connectionList": [],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_430_fartth",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": 433.0127
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_431_ashlok",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_496_wildmn",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_420_flamtl",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": null,
+              "forceId": "kazimierz"
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_431_ashlok",
+          "scale": 1.0,
+          "pos": {
+            "x": -600.0,
+            "y": 519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4000_jnight",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_496_wildmn",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_430_fartth",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1014_nearl2",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_423_blemsh",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4064_mlynar",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_420_flamtl",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": 519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_496_wildmn",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_430_fartth",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_496_wildmn",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": 606.2178
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4000_jnight",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_420_flamtl",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_430_fartth",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_431_ashlok",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4000_jnight",
+          "scale": 1.0,
+          "pos": {
+            "x": -600.0,
+            "y": 692.8203
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_496_wildmn",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_431_ashlok",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4064_mlynar",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_265_sophia",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_1014_nearl2",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_423_blemsh",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4032_provs",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_237_gravel",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_204_platnm",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_423_blemsh",
+              "forceId": null
+            }
+          ],
           "haveOutLine": true
         }
       ],
@@ -2421,6 +3520,66 @@
           "lineType": 0,
           "char1": "char_148_nearl",
           "char2": "char_265_sophia"
+        },
+        {
+          "index": 3,
+          "lineType": 0,
+          "char1": "char_430_fartth",
+          "char2": "char_431_ashlok"
+        },
+        {
+          "index": 4,
+          "lineType": 0,
+          "char1": "char_148_nearl",
+          "char2": "char_1014_nearl2"
+        },
+        {
+          "index": 5,
+          "lineType": 0,
+          "char1": "char_430_fartth",
+          "char2": "char_420_flamtl"
+        },
+        {
+          "index": 6,
+          "lineType": 0,
+          "char1": "char_431_ashlok",
+          "char2": "char_496_wildmn"
+        },
+        {
+          "index": 7,
+          "lineType": 0,
+          "char1": "char_496_wildmn",
+          "char2": "char_420_flamtl"
+        },
+        {
+          "index": 8,
+          "lineType": 0,
+          "char1": "char_496_wildmn",
+          "char2": "char_430_fartth"
+        },
+        {
+          "index": 9,
+          "lineType": 0,
+          "char1": "char_431_ashlok",
+          "char2": "char_420_flamtl"
+        },
+        {
+          "index": 10,
+          "lineType": 0,
+          "char1": "char_4000_jnight",
+          "char2": "char_496_wildmn"
+        },
+        {
+          "index": 11,
+          "lineType": 0,
+          "char1": "char_4064_mlynar",
+          "char2": "char_148_nearl"
+        },
+        {
+          "index": 12,
+          "lineType": 0,
+          "char1": "char_4064_mlynar",
+          "char2": "char_423_blemsh"
         }
       ],
       "minScale": 0.75,
@@ -2453,7 +3612,8 @@
           "color": "1ae4b2",
           "charList": [
             "char_423_blemsh",
-            "char_265_sophia"
+            "char_265_sophia",
+            "char_1014_nearl2"
           ],
           "forceId": "kazimierz",
           "pos": {
@@ -2545,6 +3705,11 @@
               "direction": 1,
               "charId": "char_265_sophia",
               "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_1014_nearl2",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -2559,6 +3724,22 @@
           "connectionList": [
             {
               "direction": 4,
+              "charId": "char_423_blemsh",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1014_nearl2",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": 0.0
+          },
+          "connectionList": [
+            {
+              "direction": 0,
               "charId": "char_423_blemsh",
               "forceId": null
             }
@@ -2596,6 +3777,12 @@
           "lineType": 0,
           "char1": "char_265_sophia",
           "char2": "char_423_blemsh"
+        },
+        {
+          "index": 5,
+          "lineType": 0,
+          "char1": "char_1014_nearl2",
+          "char2": "char_148_nearl"
         }
       ],
       "minScale": 0.75,
@@ -2635,12 +3822,14 @@
             "char_383_snsant",
             "char_277_sqrrel",
             "char_325_bison",
-            "char_241_panda"
+            "char_241_panda",
+            "char_4080_lin",
+            "char_1033_swire2"
           ],
           "forceId": "lungmen",
           "pos": {
-            "x": -299.999847,
-            "y": 346.41
+            "x": -450.0,
+            "y": 259.807617
           },
           "isThisGroup": true,
           "connectPos": 2,
@@ -2673,7 +3862,8 @@
           "charList": [
             "char_243_waaifu",
             "char_226_hmau",
-            "char_225_haak"
+            "char_225_haak",
+            "char_322_lmlee"
           ],
           "forceId": "lee",
           "pos": {
@@ -2691,7 +3881,8 @@
         {
           "color": "0098dc",
           "charList": [
-            "char_002_amiya"
+            "char_002_amiya",
+            "char_1013_chen2"
           ],
           "forceId": "rhodes",
           "pos": {
@@ -2712,7 +3903,8 @@
             "char_101_sora",
             "char_103_angel",
             "char_201_moeshd",
-            "char_102_texas"
+            "char_102_texas",
+            "char_1028_texas2"
           ],
           "forceId": "penguin",
           "pos": {
@@ -2789,6 +3981,11 @@
               "forceId": null
             },
             {
+              "direction": 4,
+              "charId": "char_1033_swire2",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": "char_136_hsguma",
               "forceId": null
@@ -2854,6 +4051,11 @@
             {
               "direction": 2,
               "charId": "npc_2005_wywu",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_1033_swire2",
               "forceId": null
             },
             {
@@ -2935,6 +4137,11 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4080_lin",
+              "forceId": null
+            },
+            {
               "direction": 1,
               "charId": "char_277_sqrrel",
               "forceId": null
@@ -2974,6 +4181,11 @@
               "direction": 4,
               "charId": "char_236_rope",
               "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4080_lin",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -2989,6 +4201,11 @@
             {
               "direction": 3,
               "charId": "char_277_sqrrel",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4080_lin",
               "forceId": null
             }
           ],
@@ -3045,6 +4262,11 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_322_lmlee",
+              "forceId": null
+            },
+            {
               "direction": 1,
               "charId": "char_225_haak",
               "forceId": null
@@ -3095,6 +4317,11 @@
               "direction": 4,
               "charId": "char_243_waaifu",
               "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_322_lmlee",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -3106,7 +4333,13 @@
             "x": -749.999634,
             "y": -259.8075
           },
-          "connectionList": [],
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_1013_chen2",
+              "forceId": null
+            }
+          ],
           "haveOutLine": true
         },
         {
@@ -3117,6 +4350,11 @@
             "y": 866.025
           },
           "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_1028_texas2",
+              "forceId": null
+            },
             {
               "direction": 2,
               "charId": "char_101_sora",
@@ -3143,6 +4381,11 @@
             "y": 952.6275
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_1028_texas2",
+              "forceId": null
+            },
             {
               "direction": 4,
               "charId": "char_201_moeshd",
@@ -3221,6 +4464,111 @@
             "y": 519.615
           },
           "connectionList": [],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1013_chen2",
+          "scale": 1.0,
+          "pos": {
+            "x": -750.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_002_amiya",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_322_lmlee",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 866.0254
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_225_haak",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_243_waaifu",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1028_texas2",
+          "scale": 1.0,
+          "pos": {
+            "x": -600.0,
+            "y": 1039.23047
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_101_sora",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_102_texas",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4080_lin",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_325_bison",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_277_sqrrel",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_236_rope",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1033_swire2",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_136_hsguma",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "npc_2005_wywu",
+              "forceId": null
+            }
+          ],
           "haveOutLine": true
         },
         {
@@ -3331,28 +4679,82 @@
           "char2": "char_201_moeshd"
         },
         {
-          "index": 565,
+          "index": 14,
+          "lineType": 0,
+          "char1": "char_1013_chen2",
+          "char2": "char_010_chen"
+        },
+        {
+          "index": 15,
+          "lineType": 0,
+          "char1": "char_322_lmlee",
+          "char2": "char_226_hmau"
+        },
+        {
+          "index": 16,
+          "lineType": 0,
+          "char1": "char_322_lmlee",
+          "char2": "char_225_haak"
+        },
+        {
+          "index": 17,
+          "lineType": 0,
+          "char1": "char_322_lmlee",
+          "char2": "char_243_waaifu"
+        },
+        {
+          "index": 18,
+          "lineType": 0,
+          "char1": "char_1028_texas2",
+          "char2": "char_102_texas"
+        },
+        {
+          "index": 19,
+          "lineType": 0,
+          "char1": "char_4080_lin",
+          "char2": "char_010_chen"
+        },
+        {
+          "index": 20,
+          "lineType": 0,
+          "char1": "char_1033_swire2",
+          "char2": "char_308_swire"
+        },
+        {
+          "index": 58,
           "lineType": 0,
           "char1": "npc_2005_wywu",
           "char2": "npc_010_chen"
         },
         {
-          "index": 566,
+          "index": 59,
           "lineType": 0,
           "char1": "char_136_hsguma",
           "char2": "npc_010_chen"
         },
         {
-          "index": 567,
+          "index": 60,
           "lineType": 0,
           "char1": "char_308_swire",
           "char2": "npc_010_chen"
         },
         {
-          "index": 568,
+          "index": 61,
           "lineType": 0,
           "char1": "npc_010_chen",
           "char2": "char_002_amiya"
+        },
+        {
+          "index": 62,
+          "lineType": 0,
+          "char1": "char_1013_chen2",
+          "char2": "npc_010_chen"
+        },
+        {
+          "index": 63,
+          "lineType": 0,
+          "char1": "char_4080_lin",
+          "char2": "npc_010_chen"
         }
       ],
       "minScale": 0.75,
@@ -3374,7 +4776,15 @@
             "char_150_snakek",
             "char_347_jaksel",
             "char_452_bstalk",
-            "char_301_cutter"
+            "char_301_cutter",
+            "char_484_robrta",
+            "char_489_serum",
+            "char_4004_pudd",
+            "char_433_windft",
+            "char_4063_quartz",
+            "char_4027_heyak",
+            "char_4006_melnte",
+            "char_4104_coldst"
           ],
           "forceId": "columbia",
           "pos": {
@@ -3400,6 +4810,11 @@
                 {
                   "direction": 0,
                   "charId": "char_301_cutter",
+                  "forceId": null
+                },
+                {
+                  "direction": 1,
+                  "charId": "char_4063_quartz",
                   "forceId": null
                 },
                 {
@@ -3434,6 +4849,11 @@
                   "forceId": null
                 },
                 {
+                  "direction": 3,
+                  "charId": "char_135_halo",
+                  "forceId": null
+                },
+                {
                   "direction": 4,
                   "charId": "char_274_astesi",
                   "forceId": null
@@ -3446,7 +4866,9 @@
           "color": "ffffff",
           "charList": [
             "char_348_ceylon",
-            "char_340_shwaz"
+            "char_340_shwaz",
+            "char_488_buildr",
+            "char_4106_bryota"
           ],
           "forceId": "siesta",
           "pos": {
@@ -3467,7 +4889,9 @@
             "char_107_liskam",
             "char_106_franka",
             "char_235_jesica",
-            "char_240_wyvern"
+            "char_240_wyvern",
+            "char_1034_jesca2",
+            "char_4105_almond"
           ],
           "forceId": "blacksteel",
           "pos": {
@@ -3490,12 +4914,16 @@
             "char_128_plosis",
             "char_134_ifrit",
             "char_248_mgllan",
-            "char_242_otter"
+            "char_242_otter",
+            "char_4048_doroth",
+            "char_135_halo",
+            "char_249_mlyss",
+            "char_1031_slent2"
           ],
           "forceId": "rhine",
           "pos": {
-            "x": 1349.99939,
-            "y": 86.6025
+            "x": 1500.0,
+            "y": 173.205078
           },
           "isThisGroup": true,
           "connectPos": 5,
@@ -3547,6 +4975,11 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4004_pudd",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_150_snakek",
               "forceId": null
@@ -3559,6 +4992,11 @@
             {
               "direction": 4,
               "charId": "char_347_jaksel",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_484_robrta",
               "forceId": null
             }
           ],
@@ -3578,6 +5016,11 @@
               "forceId": "columbia"
             },
             {
+              "direction": 2,
+              "charId": "char_135_halo",
+              "forceId": null
+            },
+            {
               "direction": 3,
               "charId": "char_248_mgllan",
               "forceId": null
@@ -3593,6 +5036,11 @@
             "y": 433.0125
           },
           "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4063_quartz",
+              "forceId": null
+            },
             {
               "direction": 3,
               "charId": null,
@@ -3651,6 +5099,11 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_484_robrta",
+              "forceId": null
+            },
+            {
               "direction": 1,
               "charId": "char_290_vigna",
               "forceId": null
@@ -3658,6 +5111,11 @@
             {
               "direction": 2,
               "charId": "char_452_bstalk",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4006_melnte",
               "forceId": null
             }
           ],
@@ -3671,6 +5129,11 @@
             "y": 346.41
           },
           "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_4027_heyak",
+              "forceId": null
+            },
             {
               "direction": 4,
               "charId": "char_214_kafka",
@@ -3700,6 +5163,11 @@
             {
               "direction": 1,
               "charId": "char_264_f12yin",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4027_heyak",
               "forceId": null
             },
             {
@@ -3812,6 +5280,11 @@
           },
           "connectionList": [
             {
+              "direction": 2,
+              "charId": "char_1031_slent2",
+              "forceId": null
+            },
+            {
               "direction": 3,
               "charId": "char_202_demkni",
               "forceId": null
@@ -3819,6 +5292,11 @@
             {
               "direction": 4,
               "charId": "char_134_ifrit",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_135_halo",
               "forceId": null
             }
           ],
@@ -3832,6 +5310,11 @@
             "y": -173.205
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_135_halo",
+              "forceId": null
+            },
             {
               "direction": 1,
               "charId": "char_108_silent",
@@ -3874,6 +5357,16 @@
               "forceId": null
             },
             {
+              "direction": 1,
+              "charId": "char_1031_slent2",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_249_mlyss",
+              "forceId": null
+            },
+            {
               "direction": 4,
               "charId": "char_128_plosis",
               "forceId": null
@@ -3902,6 +5395,16 @@
             {
               "direction": 1,
               "charId": "char_202_demkni",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_249_mlyss",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4048_doroth",
               "forceId": null
             },
             {
@@ -3934,6 +5437,11 @@
               "direction": 2,
               "charId": "char_128_plosis",
               "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4048_doroth",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -3949,6 +5457,11 @@
             {
               "direction": 0,
               "charId": "char_274_astesi",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_135_halo",
               "forceId": null
             },
             {
@@ -3973,6 +5486,16 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4106_bryota",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_488_buildr",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": "char_340_shwaz",
               "forceId": null
@@ -3988,6 +5511,11 @@
             "y": 606.2175
           },
           "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4106_bryota",
+              "forceId": null
+            },
             {
               "direction": 2,
               "charId": "char_348_ceylon",
@@ -4065,6 +5593,11 @@
               "direction": 4,
               "charId": "char_235_jesica",
               "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_1034_jesca2",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -4078,6 +5611,11 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_1034_jesca2",
+              "forceId": null
+            },
+            {
               "direction": 1,
               "charId": "char_240_wyvern",
               "forceId": null
@@ -4085,6 +5623,422 @@
             {
               "direction": 2,
               "charId": "char_107_liskam",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4105_almond",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_484_robrta",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_489_serum",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4004_pudd",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_290_vigna",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_347_jaksel",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4006_melnte",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_433_windft",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_489_serum",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4004_pudd",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_484_robrta",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_433_windft",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4004_pudd",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_290_vigna",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_484_robrta",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_489_serum",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_433_windft",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_489_serum",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_484_robrta",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4006_melnte",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4104_coldst",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4048_doroth",
+          "scale": 1.0,
+          "pos": {
+            "x": 1350.0,
+            "y": -433.0127
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_242_otter",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_128_plosis",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_135_halo",
+          "scale": 1.0,
+          "pos": {
+            "x": 1050.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": null,
+              "forceId": "columbia"
+            },
+            {
+              "direction": 2,
+              "charId": "char_108_silent",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_134_ifrit",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_248_mgllan",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_274_astesi",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4063_quartz",
+          "scale": 1.0,
+          "pos": {
+            "x": 600.0,
+            "y": 519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": null,
+              "forceId": "columbia"
+            },
+            {
+              "direction": 5,
+              "charId": "char_301_cutter",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4027_heyak",
+          "scale": 1.0,
+          "pos": {
+            "x": 1050.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_264_f12yin",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_214_kafka",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4006_melnte",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_433_windft",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_484_robrta",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_347_jaksel",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4104_coldst",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_249_mlyss",
+          "scale": 1.0,
+          "pos": {
+            "x": 1500.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_202_demkni",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_128_plosis",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1031_slent2",
+          "scale": 1.0,
+          "pos": {
+            "x": 1350.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_202_demkni",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_108_silent",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_488_buildr",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 866.0254
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_348_ceylon",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4106_bryota",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4106_bryota",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 779.422852
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_488_buildr",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_348_ceylon",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_340_shwaz",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4104_coldst",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_433_windft",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4006_melnte",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1034_jesca2",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": -346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_240_wyvern",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_235_jesica",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4105_almond",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4105_almond",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": -519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_1034_jesca2",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_235_jesica",
               "forceId": null
             }
           ],
@@ -4139,6 +6093,42 @@
           "lineType": 0,
           "char1": "char_214_kafka",
           "char2": "char_108_silent"
+        },
+        {
+          "index": 11,
+          "lineType": 0,
+          "char1": "char_135_halo",
+          "char2": "char_274_astesi"
+        },
+        {
+          "index": 72,
+          "lineType": 0,
+          "char1": "char_202_demkni",
+          "char2": "char_249_mlyss"
+        },
+        {
+          "index": 73,
+          "lineType": 0,
+          "char1": "char_1031_slent2",
+          "char2": "char_108_silent"
+        },
+        {
+          "index": 74,
+          "lineType": 0,
+          "char1": "char_1031_slent2",
+          "char2": "char_202_demkni"
+        },
+        {
+          "index": 183,
+          "lineType": 0,
+          "char1": "char_1034_jesca2",
+          "char2": "char_4104_coldst"
+        },
+        {
+          "index": 184,
+          "lineType": 0,
+          "char1": "char_1034_jesca2",
+          "char2": "char_235_jesica"
         }
       ],
       "minScale": 0.75,
@@ -4150,12 +6140,18 @@
         {
           "color": "fff9c7",
           "charList": [
-            "char_213_mostma",
             "char_279_excu",
             "char_302_glaze",
             "char_271_spikes",
             "char_192_falco",
-            "char_332_archet"
+            "char_332_archet",
+            "char_300_phenxi",
+            "char_213_mostma",
+            "char_4036_forcer",
+            "char_1032_excu2",
+            "char_498_inside",
+            "char_4015_spuria",
+            "char_245_cello"
           ],
           "forceId": "laterano",
           "pos": {
@@ -4179,6 +6175,16 @@
               "color": "fff9c7",
               "connectionList": [
                 {
+                  "direction": 0,
+                  "charId": "char_4036_forcer",
+                  "forceId": null
+                },
+                {
+                  "direction": 2,
+                  "charId": "char_300_phenxi",
+                  "forceId": null
+                },
+                {
                   "direction": 3,
                   "charId": "char_213_mostma",
                   "forceId": null
@@ -4186,6 +6192,32 @@
                 {
                   "direction": 5,
                   "charId": "char_279_excu",
+                  "forceId": null
+                }
+              ]
+            },
+            {
+              "id": "laterano1",
+              "forceId": "laterano",
+              "pos": {
+                "x": -150.0,
+                "y": -259.807617
+              },
+              "color": "fff9c7",
+              "connectionList": [
+                {
+                  "direction": 0,
+                  "charId": "char_4015_spuria",
+                  "forceId": null
+                },
+                {
+                  "direction": 1,
+                  "charId": "char_1032_excu2",
+                  "forceId": null
+                },
+                {
+                  "direction": 4,
+                  "charId": "char_245_cello",
                   "forceId": null
                 }
               ]
@@ -4221,6 +6253,11 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_302_glaze",
+              "forceId": null
+            },
+            {
               "direction": 1,
               "charId": "char_332_archet",
               "forceId": null
@@ -4228,6 +6265,11 @@
             {
               "direction": 2,
               "charId": "char_271_spikes",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4015_spuria",
               "forceId": null
             }
           ],
@@ -4243,13 +6285,23 @@
           "connectionList": [
             {
               "direction": 0,
-              "charId": "char_302_glaze",
+              "charId": "char_498_inside",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4036_forcer",
               "forceId": null
             },
             {
               "direction": 2,
               "charId": null,
               "forceId": "laterano"
+            },
+            {
+              "direction": 4,
+              "charId": "char_1032_excu2",
+              "forceId": null
             },
             {
               "direction": 5,
@@ -4271,6 +6323,11 @@
               "direction": 0,
               "charId": null,
               "forceId": "laterano"
+            },
+            {
+              "direction": 1,
+              "charId": "char_300_phenxi",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -4279,23 +6336,18 @@
           "charId": "char_302_glaze",
           "scale": 1.0,
           "pos": {
-            "x": -299.999847,
-            "y": 173.205
+            "x": -600.0,
+            "y": 0.0
           },
           "connectionList": [
             {
-              "direction": 3,
-              "charId": "char_279_excu",
-              "forceId": null
-            },
-            {
-              "direction": 4,
-              "charId": "char_271_spikes",
-              "forceId": null
-            },
-            {
-              "direction": 5,
+              "direction": 2,
               "charId": "char_332_archet",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_192_falco",
               "forceId": null
             }
           ],
@@ -4316,12 +6368,22 @@
             },
             {
               "direction": 1,
-              "charId": "char_302_glaze",
+              "charId": "char_498_inside",
               "forceId": null
             },
             {
               "direction": 2,
               "charId": "char_279_excu",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_1032_excu2",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4015_spuria",
               "forceId": null
             },
             {
@@ -4342,7 +6404,7 @@
           "connectionList": [
             {
               "direction": 2,
-              "charId": "char_302_glaze",
+              "charId": "char_498_inside",
               "forceId": null
             },
             {
@@ -4353,6 +6415,11 @@
             {
               "direction": 4,
               "charId": "char_192_falco",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_302_glaze",
               "forceId": null
             }
           ],
@@ -4367,6 +6434,162 @@
           },
           "connectionList": [],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_300_phenxi",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_213_mostma",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": null,
+              "forceId": "laterano"
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4036_forcer",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": null,
+              "forceId": "laterano"
+            },
+            {
+              "direction": 4,
+              "charId": "char_279_excu",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_498_inside",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1032_excu2",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_271_spikes",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_279_excu",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": null,
+              "forceId": "laterano"
+            },
+            {
+              "direction": 5,
+              "charId": "char_4015_spuria",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_498_inside",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4036_forcer",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_279_excu",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_271_spikes",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_332_archet",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4015_spuria",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_192_falco",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_271_spikes",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_1032_excu2",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": null,
+              "forceId": "laterano"
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_245_cello",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": -433.0127
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": null,
+              "forceId": "laterano"
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -4375,6 +6598,18 @@
           "lineType": 0,
           "char1": "char_213_mostma",
           "char2": "char_103_angel"
+        },
+        {
+          "index": 1,
+          "lineType": 0,
+          "char1": "char_300_phenxi",
+          "char2": "char_213_mostma"
+        },
+        {
+          "index": 2,
+          "lineType": 0,
+          "char1": "char_1032_excu2",
+          "char2": "char_279_excu"
         }
       ],
       "minScale": 0.75,
@@ -4390,7 +6625,13 @@
             "char_373_lionhd",
             "char_378_asbest",
             "char_365_aprl",
-            "char_230_savage"
+            "char_230_savage",
+            "char_449_glider",
+            "char_476_blkngt",
+            "char_493_firwhl",
+            "char_464_cement",
+            "char_4117_ray",
+            "char_4081_warmy"
           ],
           "forceId": "rim",
           "pos": {
@@ -4490,6 +6731,16 @@
               "direction": 2,
               "charId": "char_294_ayer",
               "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4081_warmy",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4117_ray",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -4502,6 +6753,16 @@
             "y": 259.8075
           },
           "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_476_blkngt",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_449_glider",
+              "forceId": null
+            },
             {
               "direction": 4,
               "charId": "char_294_ayer",
@@ -4531,6 +6792,16 @@
             {
               "direction": 1,
               "charId": "char_378_asbest",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_449_glider",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4081_warmy",
               "forceId": null
             },
             {
@@ -4581,6 +6852,162 @@
           },
           "connectionList": [],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_449_glider",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_378_asbest",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_476_blkngt",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_493_firwhl",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_294_ayer",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_476_blkngt",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_464_cement",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_493_firwhl",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_449_glider",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_378_asbest",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_493_firwhl",
+          "scale": 1.0,
+          "pos": {
+            "x": 450.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_476_blkngt",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_464_cement",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_449_glider",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_464_cement",
+          "scale": 1.0,
+          "pos": {
+            "x": 450.0,
+            "y": 433.0127
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_493_firwhl",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_476_blkngt",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4117_ray",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_373_lionhd",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4081_warmy",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4081_warmy",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_373_lionhd",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_294_ayer",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4117_ray",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -4616,7 +7043,10 @@
             "char_402_tuye",
             "char_379_sesa",
             "char_344_beewax",
-            "char_472_pasngr"
+            "char_472_pasngr",
+            "char_4054_malist",
+            "char_4062_totter",
+            "char_4023_rfalcn"
           ],
           "forceId": "sargon",
           "pos": {
@@ -4670,8 +7100,39 @@
               "id": "sargon1",
               "forceId": "sargon",
               "pos": {
-                "x": 149.999924,
-                "y": -259.8075
+                "x": 0.0,
+                "y": -346.41
+              },
+              "color": "9cb567",
+              "connectionList": [
+                {
+                  "direction": 0,
+                  "charId": "char_381_bubble",
+                  "forceId": null
+                },
+                {
+                  "direction": 1,
+                  "charId": "char_215_mantic",
+                  "forceId": null
+                },
+                {
+                  "direction": 2,
+                  "charId": null,
+                  "forceId": "sargon"
+                },
+                {
+                  "direction": 3,
+                  "charId": "char_415_flint",
+                  "forceId": null
+                }
+              ]
+            },
+            {
+              "id": "sargon2",
+              "forceId": "sargon",
+              "pos": {
+                "x": 150.0,
+                "y": -259.807617
               },
               "color": "9cb567",
               "connectionList": [
@@ -4704,37 +7165,6 @@
                   "direction": 5,
                   "charId": null,
                   "forceId": "sargon"
-                }
-              ]
-            },
-            {
-              "id": "sargon2",
-              "forceId": "sargon",
-              "pos": {
-                "x": 0.0,
-                "y": -346.41
-              },
-              "color": "9cb567",
-              "connectionList": [
-                {
-                  "direction": 0,
-                  "charId": "char_381_bubble",
-                  "forceId": null
-                },
-                {
-                  "direction": 1,
-                  "charId": "char_215_mantic",
-                  "forceId": null
-                },
-                {
-                  "direction": 2,
-                  "charId": null,
-                  "forceId": "sargon"
-                },
-                {
-                  "direction": 3,
-                  "charId": "char_415_flint",
-                  "forceId": null
                 }
               ]
             }
@@ -4932,6 +7362,11 @@
           },
           "connectionList": [
             {
+              "direction": 1,
+              "charId": "char_4062_totter",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_402_tuye",
               "forceId": null
@@ -4997,6 +7432,11 @@
               "direction": 2,
               "charId": "char_416_zumama",
               "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4054_malist",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -5017,6 +7457,11 @@
             {
               "direction": 1,
               "charId": "char_411_tomimi",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4054_malist",
               "forceId": null
             },
             {
@@ -5066,6 +7511,16 @@
             "y": 86.6025
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4062_totter",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4023_rfalcn",
+              "forceId": null
+            },
             {
               "direction": 3,
               "charId": "char_379_sesa",
@@ -5146,6 +7601,74 @@
           },
           "connectionList": [],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_4054_malist",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": -519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_415_flint",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_416_zumama",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4062_totter",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4023_rfalcn",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_402_tuye",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_336_folivo",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4023_rfalcn",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_402_tuye",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4062_totter",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -5196,12 +7719,24 @@
             "char_166_skfire",
             "char_388_mint",
             "char_363_toddi",
-            "char_369_bena"
+            "char_369_bena",
+            "char_479_sleach",
+            "char_4025_aprot2",
+            "char_377_gdglow",
+            "char_4039_horn",
+            "char_4045_heidi",
+            "char_4040_rockr",
+            "char_4072_ironmn",
+            "char_4017_puzzle",
+            "char_4110_delphn",
+            "char_494_vendla",
+            "char_4107_vrdant",
+            "char_4114_harold"
           ],
           "forceId": "victoria",
           "pos": {
-            "x": -149.999924,
-            "y": 86.6025
+            "x": 150.0,
+            "y": -86.60254
           },
           "isThisGroup": true,
           "connectPos": 2,
@@ -5212,32 +7747,6 @@
           "colorBlocks": [
             {
               "id": "victoria0",
-              "forceId": "victoria",
-              "pos": {
-                "x": 0.0,
-                "y": 0.0
-              },
-              "color": "ffd75c",
-              "connectionList": [
-                {
-                  "direction": 1,
-                  "charId": "char_220_grani",
-                  "forceId": null
-                },
-                {
-                  "direction": 2,
-                  "charId": "char_141_nights",
-                  "forceId": null
-                },
-                {
-                  "direction": 4,
-                  "charId": "char_338_iris",
-                  "forceId": null
-                }
-              ]
-            },
-            {
-              "id": "victoria1",
               "forceId": "victoria",
               "pos": {
                 "x": -299.999847,
@@ -5251,6 +7760,11 @@
                   "forceId": null
                 },
                 {
+                  "direction": 3,
+                  "charId": "char_4110_delphn",
+                  "forceId": null
+                },
+                {
                   "direction": 5,
                   "charId": "char_261_sddrag",
                   "forceId": null
@@ -5258,7 +7772,7 @@
               ]
             },
             {
-              "id": "victoria2",
+              "id": "victoria1",
               "forceId": "victoria",
               "pos": {
                 "x": 600.0,
@@ -5277,8 +7791,44 @@
                   "forceId": null
                 },
                 {
+                  "direction": 3,
+                  "charId": "char_4025_aprot2",
+                  "forceId": null
+                },
+                {
                   "direction": 4,
                   "charId": "char_185_frncat",
+                  "forceId": null
+                }
+              ]
+            },
+            {
+              "id": "victoria2",
+              "forceId": "victoria",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "color": "ffd75c",
+              "connectionList": [
+                {
+                  "direction": 0,
+                  "charId": "char_4110_delphn",
+                  "forceId": null
+                },
+                {
+                  "direction": 1,
+                  "charId": "char_220_grani",
+                  "forceId": null
+                },
+                {
+                  "direction": 2,
+                  "charId": "char_141_nights",
+                  "forceId": null
+                },
+                {
+                  "direction": 4,
+                  "charId": "char_338_iris",
                   "forceId": null
                 }
               ]
@@ -5289,18 +7839,39 @@
           "color": "ffd75c",
           "charList": [
             "char_112_siege",
-            "char_155_tiger"
+            "char_155_tiger",
+            "char_157_dagda",
+            "char_154_morgan"
           ],
           "forceId": "glasgow",
           "pos": {
-            "x": -599.9997,
-            "y": 519.615
+            "x": -750.0,
+            "y": 606.2178
           },
           "isThisGroup": true,
           "connectPos": 3,
           "focusPos": {
             "x": 489.107361,
             "y": -446.026855
+          },
+          "colorBlocks": []
+        },
+        {
+          "color": "674580",
+          "charList": [
+            "char_1020_reed2",
+            "char_297_hamoni"
+          ],
+          "forceId": "dublinn",
+          "pos": {
+            "x": -1050.0,
+            "y": 86.60254
+          },
+          "isThisGroup": true,
+          "connectPos": 3,
+          "focusPos": {
+            "x": 845.7198,
+            "y": -48.6913528
           },
           "colorBlocks": []
         }
@@ -5356,6 +7927,11 @@
               "forceId": null
             },
             {
+              "direction": 1,
+              "charId": "char_4039_horn",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_133_mm",
               "forceId": null
@@ -5369,6 +7945,11 @@
               "direction": 4,
               "charId": null,
               "forceId": "victoria"
+            },
+            {
+              "direction": 5,
+              "charId": "char_4110_delphn",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -5407,6 +7988,16 @@
             "y": 259.8075
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4039_horn",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_479_sleach",
+              "forceId": null
+            },
             {
               "direction": 2,
               "charId": "char_388_mint",
@@ -5455,8 +8046,18 @@
           },
           "connectionList": [
             {
+              "direction": 2,
+              "charId": "char_4039_horn",
+              "forceId": null
+            },
+            {
               "direction": 3,
               "charId": "char_220_grani",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4110_delphn",
               "forceId": null
             },
             {
@@ -5476,6 +8077,11 @@
           },
           "connectionList": [
             {
+              "direction": 4,
+              "charId": "char_4025_aprot2",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": null,
               "forceId": "victoria"
@@ -5492,8 +8098,23 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_479_sleach",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4040_rockr",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_166_skfire",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_377_gdglow",
               "forceId": null
             },
             {
@@ -5518,6 +8139,31 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4040_rockr",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4017_puzzle",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4107_vrdant",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4114_harold",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_377_gdglow",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": "char_388_mint",
               "forceId": null
@@ -5541,6 +8187,11 @@
             {
               "direction": 1,
               "charId": "char_388_mint",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_377_gdglow",
               "forceId": null
             },
             {
@@ -5594,6 +8245,11 @@
               "direction": 1,
               "charId": null,
               "forceId": "victoria"
+            },
+            {
+              "direction": 2,
+              "charId": "char_4025_aprot2",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -5606,6 +8262,16 @@
             "y": 433.0125
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_154_morgan",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_157_dagda",
+              "forceId": null
+            },
             {
               "direction": 2,
               "charId": "char_155_tiger",
@@ -5622,6 +8288,11 @@
             "y": 519.615
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_157_dagda",
+              "forceId": null
+            },
             {
               "direction": 5,
               "charId": "char_112_siege",
@@ -5641,6 +8312,11 @@
             {
               "direction": 0,
               "charId": "char_164_nightm",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_377_gdglow",
               "forceId": null
             },
             {
@@ -5671,6 +8347,462 @@
             }
           ],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_479_sleach",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 433.0127
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4045_heidi",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4072_ironmn",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4040_rockr",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_388_mint",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_133_mm",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4039_horn",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4025_aprot2",
+          "scale": 1.0,
+          "pos": {
+            "x": 750.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": null,
+              "forceId": "victoria"
+            },
+            {
+              "direction": 1,
+              "charId": "char_250_phatom",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_185_frncat",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_377_gdglow",
+          "scale": 1.0,
+          "pos": {
+            "x": 450.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_388_mint",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_166_skfire",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4114_harold",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_363_toddi",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_164_nightm",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4039_horn",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4045_heidi",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_479_sleach",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_133_mm",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_220_grani",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_222_bpipe",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4045_heidi",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4072_ironmn",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_479_sleach",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4039_horn",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4040_rockr",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4072_ironmn",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_494_vendla",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4017_puzzle",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_166_skfire",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_388_mint",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_479_sleach",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_157_dagda",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": 606.2178
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_155_tiger",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_112_siege",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_154_morgan",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4072_ironmn",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 606.2178
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_494_vendla",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4040_rockr",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_479_sleach",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4045_heidi",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1020_reed2",
+          "scale": 1.0,
+          "pos": {
+            "x": -750.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 5,
+              "charId": "char_297_hamoni",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_297_hamoni",
+          "scale": 1.0,
+          "pos": {
+            "x": -900.0,
+            "y": 0.0
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_1020_reed2",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4017_puzzle",
+          "scale": 1.0,
+          "pos": {
+            "x": 450.0,
+            "y": 606.2178
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_494_vendla",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4107_vrdant",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_166_skfire",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4040_rockr",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_154_morgan",
+          "scale": 1.0,
+          "pos": {
+            "x": -600.0,
+            "y": 519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_157_dagda",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_112_siege",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4110_delphn",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": null,
+              "forceId": "victoria"
+            },
+            {
+              "direction": 1,
+              "charId": "char_222_bpipe",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_220_grani",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": null,
+              "forceId": "victoria"
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_494_vendla",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 692.8203
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_4017_puzzle",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4040_rockr",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4072_ironmn",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4107_vrdant",
+          "scale": 1.0,
+          "pos": {
+            "x": 600.0,
+            "y": 519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4017_puzzle",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4114_harold",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_166_skfire",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4114_harold",
+          "scale": 1.0,
+          "pos": {
+            "x": 600.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_166_skfire",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4107_vrdant",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_377_gdglow",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -5685,6 +8817,36 @@
           "lineType": 0,
           "char1": "char_166_skfire",
           "char2": "char_388_mint"
+        },
+        {
+          "index": 2,
+          "lineType": 0,
+          "char1": "char_4025_aprot2",
+          "char2": "char_250_phatom"
+        },
+        {
+          "index": 14,
+          "lineType": 0,
+          "char1": "char_4039_horn",
+          "char2": "char_222_bpipe"
+        },
+        {
+          "index": 15,
+          "lineType": 0,
+          "char1": "char_157_dagda",
+          "char2": "char_112_siege"
+        },
+        {
+          "index": 16,
+          "lineType": 0,
+          "char1": "char_1020_reed2",
+          "char2": "char_261_sddrag"
+        },
+        {
+          "index": 17,
+          "lineType": 0,
+          "char1": "char_154_morgan",
+          "char2": "char_112_siege"
         }
       ],
       "minScale": 0.75,
@@ -5741,7 +8903,8 @@
             "char_195_glassb",
             "char_115_headbr",
             "char_196_sunbr",
-            "char_197_poca"
+            "char_197_poca",
+            "char_194_leto"
           ],
           "forceId": "student",
           "pos": {
@@ -5812,6 +8975,11 @@
               "direction": 2,
               "charId": "char_115_headbr",
               "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_194_leto",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -5832,6 +9000,11 @@
             {
               "direction": 3,
               "charId": "char_195_glassb",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_194_leto",
               "forceId": null
             },
             {
@@ -5863,6 +9036,11 @@
             {
               "direction": 2,
               "charId": "char_197_poca",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_194_leto",
               "forceId": null
             }
           ],
@@ -5914,6 +9092,32 @@
             }
           ],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_194_leto",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_405_absin",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_115_headbr",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_195_glassb",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -5934,6 +9138,12 @@
           "lineType": 0,
           "char1": "char_197_poca",
           "char2": "char_115_headbr"
+        },
+        {
+          "index": 3,
+          "lineType": 0,
+          "char1": "char_194_leto",
+          "char2": "char_115_headbr"
         }
       ],
       "minScale": 0.75,
@@ -5949,18 +9159,22 @@
             "char_174_slbell",
             "char_199_yak",
             "char_173_slchan",
-            "char_172_svrash"
+            "char_172_svrash",
+            "char_206_gnosis",
+            "char_422_aurora",
+            "char_4013_kjera",
+            "char_4116_blkkgt"
           ],
           "forceId": "karlan",
           "pos": {
-            "x": -149.999924,
-            "y": -86.6025
+            "x": -300.0,
+            "y": 0.0
           },
           "isThisGroup": true,
           "connectPos": 2,
           "focusPos": {
-            "x": -134.114,
-            "y": -10.1408539
+            "x": -105.904724,
+            "y": 21.7849
           },
           "colorBlocks": []
         }
@@ -5975,6 +9189,11 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_206_gnosis",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_199_yak",
               "forceId": null
@@ -5982,6 +9201,16 @@
             {
               "direction": 3,
               "charId": "char_173_slchan",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_422_aurora",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4116_blkkgt",
               "forceId": null
             }
           ],
@@ -6022,6 +9251,11 @@
           },
           "connectionList": [
             {
+              "direction": 4,
+              "charId": "char_4013_kjera",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": "char_174_slbell",
               "forceId": null
@@ -6045,6 +9279,11 @@
             {
               "direction": 2,
               "charId": "char_198_blackd",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4013_kjera",
               "forceId": null
             },
             {
@@ -6076,6 +9315,105 @@
             {
               "direction": 2,
               "charId": "char_174_slbell",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_422_aurora",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_206_gnosis",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_172_svrash",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4116_blkkgt",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_422_aurora",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4116_blkkgt",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_172_svrash",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_173_slchan",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4013_kjera",
+          "scale": 1.0,
+          "pos": {
+            "x": 450.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_174_slbell",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_198_blackd",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4116_blkkgt",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_206_gnosis",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_172_svrash",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_422_aurora",
               "forceId": null
             }
           ],
@@ -6112,6 +9450,24 @@
           "lineType": 0,
           "char1": "char_173_slchan",
           "char2": "char_174_slbell"
+        },
+        {
+          "index": 5,
+          "lineType": 0,
+          "char1": "char_174_slbell",
+          "char2": "char_4013_kjera"
+        },
+        {
+          "index": 6,
+          "lineType": 0,
+          "char1": "char_172_svrash",
+          "char2": "char_206_gnosis"
+        },
+        {
+          "index": 151,
+          "lineType": 0,
+          "char1": "char_4116_blkkgt",
+          "char2": "char_172_svrash"
         }
       ],
       "minScale": 0.75,
@@ -6128,7 +9484,10 @@
             "char_358_lisa",
             "char_190_clour",
             "char_254_vodfox",
-            "char_140_whitew"
+            "char_140_whitew",
+            "char_4065_judge",
+            "char_4014_lunacu",
+            "char_427_vigil"
           ],
           "forceId": "siracusa",
           "pos": {
@@ -6151,6 +9510,11 @@
               },
               "color": "536177",
               "connectionList": [
+                {
+                  "direction": 0,
+                  "charId": "char_4065_judge",
+                  "forceId": null
+                },
                 {
                   "direction": 2,
                   "charId": "char_140_whitew",
@@ -6246,6 +9610,11 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4014_lunacu",
+              "forceId": null
+            },
+            {
               "direction": 1,
               "charId": "char_190_clour",
               "forceId": null
@@ -6279,6 +9648,11 @@
             {
               "direction": 4,
               "charId": "char_291_aglina",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4014_lunacu",
               "forceId": null
             }
           ],
@@ -6323,6 +9697,11 @@
             "y": 86.6025
           },
           "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4065_judge",
+              "forceId": null
+            },
             {
               "direction": 2,
               "charId": null,
@@ -6413,6 +9792,69 @@
           },
           "connectionList": [],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_4014_lunacu",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_190_clour",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_291_aglina",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4065_judge",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_427_vigil",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": null,
+              "forceId": "siracusa"
+            },
+            {
+              "direction": 4,
+              "charId": "char_358_lisa",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_427_vigil",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_4065_judge",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -6452,15 +9894,22 @@
           "charList": [
             "char_306_leizi",
             "char_385_finlpp",
-            "char_455_nothin"
+            "char_455_nothin",
+            "char_473_mberry",
+            "char_4082_qiubai",
+            "char_4083_chimes",
+            "char_4078_bdhkgt",
+            "char_4121_zuole",
+            "char_4122_grabds",
+            "char_4119_wanqin"
           ],
           "forceId": "yan",
           "pos": {
-            "x": -449.9998,
-            "y": -86.6025
+            "x": -600.0,
+            "y": 0.0
           },
           "isThisGroup": true,
-          "connectPos": 2,
+          "connectPos": 3,
           "focusPos": {
             "x": 287.3872,
             "y": 129.449432
@@ -6471,7 +9920,10 @@
           "color": "b01e22",
           "charList": [
             "char_2014_nian",
-            "char_2015_dusk"
+            "char_2015_dusk",
+            "char_2023_ling",
+            "char_2024_chyue",
+            "char_2025_shu"
           ],
           "forceId": "sui",
           "pos": {
@@ -6518,6 +9970,11 @@
               "direction": 4,
               "charId": "char_2015_dusk",
               "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_2023_ling",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -6531,8 +9988,23 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_2023_ling",
+              "forceId": null
+            },
+            {
               "direction": 1,
               "charId": "char_2014_nian",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_2025_shu",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_2024_chyue",
               "forceId": null
             }
           ],
@@ -6547,6 +10019,16 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4121_zuole",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_473_mberry",
+              "forceId": null
+            },
+            {
               "direction": 3,
               "charId": "char_385_finlpp",
               "forceId": null
@@ -6554,6 +10036,11 @@
             {
               "direction": 4,
               "charId": "char_455_nothin",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4083_chimes",
               "forceId": null
             }
           ],
@@ -6573,6 +10060,16 @@
               "forceId": null
             },
             {
+              "direction": 1,
+              "charId": "char_473_mberry",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4082_qiubai",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": "char_455_nothin",
               "forceId": null
@@ -6589,6 +10086,11 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4083_chimes",
+              "forceId": null
+            },
+            {
               "direction": 1,
               "charId": "char_306_leizi",
               "forceId": null
@@ -6596,6 +10098,21 @@
             {
               "direction": 2,
               "charId": "char_385_finlpp",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4082_qiubai",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4119_wanqin",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4078_bdhkgt",
               "forceId": null
             }
           ],
@@ -6610,6 +10127,261 @@
           },
           "connectionList": [],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_473_mberry",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_385_finlpp",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_306_leizi",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_2023_ling",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_2014_nian",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_2015_dusk",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_2024_chyue",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_2024_chyue",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": -259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_2023_ling",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_2015_dusk",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_2025_shu",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4082_qiubai",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": -259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_455_nothin",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_385_finlpp",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4119_wanqin",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4083_chimes",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4121_zuole",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_306_leizi",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_455_nothin",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4078_bdhkgt",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4078_bdhkgt",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": -259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4083_chimes",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_455_nothin",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4119_wanqin",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4122_grabds",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_2025_shu",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": -346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_2024_chyue",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_2015_dusk",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4121_zuole",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_306_leizi",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4083_chimes",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4119_wanqin",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": -346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4078_bdhkgt",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_455_nothin",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4082_qiubai",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4122_grabds",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4122_grabds",
+          "scale": 1.0,
+          "pos": {
+            "x": -450.0,
+            "y": -433.0127
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4078_bdhkgt",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4119_wanqin",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -6618,6 +10390,18 @@
           "lineType": 0,
           "char1": "char_1011_lava2",
           "char2": "char_2014_nian"
+        },
+        {
+          "index": 89,
+          "lineType": 0,
+          "char1": "char_4082_qiubai",
+          "char2": "char_2024_chyue"
+        },
+        {
+          "index": 90,
+          "lineType": 0,
+          "char1": "char_4119_wanqin",
+          "char2": "char_4122_grabds"
         }
       ],
       "minScale": 0.75,
@@ -6630,18 +10414,40 @@
           "color": "8eb1ff",
           "charList": [
             "char_109_fmout",
-            "char_252_bibeak"
+            "char_252_bibeak",
+            "char_466_qanik",
+            "char_2012_typhon",
+            "char_4102_threye",
+            "char_341_sntlla"
           ],
           "forceId": "sami",
           "pos": {
-            "x": -149.999924,
-            "y": 86.6025
+            "x": -300.0,
+            "y": 346.410156
           },
           "isThisGroup": true,
           "connectPos": 3,
           "focusPos": {
             "x": 112.595345,
             "y": 35.6469765
+          },
+          "colorBlocks": []
+        },
+        {
+          "color": "c1ff04",
+          "charList": [
+            "char_248_mgllan"
+          ],
+          "forceId": "rhine",
+          "pos": {
+            "x": 450.0,
+            "y": 259.807617
+          },
+          "isThisGroup": false,
+          "connectPos": 5,
+          "focusPos": {
+            "x": 0.0,
+            "y": 0.0
           },
           "colorBlocks": []
         }
@@ -6655,6 +10461,16 @@
             "y": 0.0
           },
           "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_341_sntlla",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_466_qanik",
+              "forceId": null
+            },
             {
               "direction": 5,
               "charId": "char_252_bibeak",
@@ -6675,12 +10491,129 @@
               "direction": 2,
               "charId": "char_109_fmout",
               "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_466_qanik",
+              "forceId": null
             }
           ],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_466_qanik",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_252_bibeak",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_109_fmout",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_2012_typhon",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_341_sntlla",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4102_threye",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4102_threye",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_2012_typhon",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_341_sntlla",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_341_sntlla",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4102_threye",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_2012_typhon",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_109_fmout",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_248_mgllan",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 173.205078
+          },
+          "connectionList": [],
+          "haveOutLine": true
         }
       ],
-      "lineList": [],
+      "lineList": [
+        {
+          "index": 0,
+          "lineType": 0,
+          "char1": "char_2012_typhon",
+          "char2": "char_4102_threye"
+        },
+        {
+          "index": 1,
+          "lineType": 0,
+          "char1": "char_248_mgllan",
+          "char2": "char_341_sntlla"
+        }
+      ],
       "minScale": 0.75,
       "maxScale": 2.0
     },
@@ -6696,7 +10629,9 @@
             "char_289_gyuki",
             "char_362_saga",
             "char_475_akafyu",
-            "char_478_kirara"
+            "char_478_kirara",
+            "char_437_mizuki",
+            "char_4016_kazema"
           ],
           "forceId": "higashi",
           "pos": {
@@ -6709,7 +10644,34 @@
             "x": 41.1312256,
             "y": -112.391418
           },
-          "colorBlocks": []
+          "colorBlocks": [
+            {
+              "id": "higashi0",
+              "forceId": "higashi",
+              "pos": {
+                "x": 450.0,
+                "y": 86.60254
+              },
+              "color": "00dbe9",
+              "connectionList": [
+                {
+                  "direction": 0,
+                  "charId": "char_475_akafyu",
+                  "forceId": null
+                },
+                {
+                  "direction": 3,
+                  "charId": "char_437_mizuki",
+                  "forceId": null
+                },
+                {
+                  "direction": 5,
+                  "charId": "char_478_kirara",
+                  "forceId": null
+                }
+              ]
+            }
+          ]
         },
         {
           "color": "ff4a33",
@@ -6760,6 +10722,11 @@
             "y": 259.8075
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4016_kazema",
+              "forceId": null
+            },
             {
               "direction": 3,
               "charId": "char_475_akafyu",
@@ -6812,6 +10779,11 @@
             "y": 173.205
           },
           "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4016_kazema",
+              "forceId": null
+            },
             {
               "direction": 2,
               "charId": "char_289_gyuki",
@@ -6895,6 +10867,11 @@
               "forceId": null
             },
             {
+              "direction": 3,
+              "charId": null,
+              "forceId": "higashi"
+            },
+            {
               "direction": 4,
               "charId": "char_478_kirara",
               "forceId": null
@@ -6924,6 +10901,48 @@
               "direction": 1,
               "charId": "char_475_akafyu",
               "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": null,
+              "forceId": "higashi"
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_437_mizuki",
+          "scale": 1.0,
+          "pos": {
+            "x": 600.0,
+            "y": 0.0
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": null,
+              "forceId": "higashi"
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4016_kazema",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_289_gyuki",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_343_tknogi",
+              "forceId": null
             }
           ],
           "haveOutLine": true
@@ -6948,12 +10967,19 @@
           "charList": [
             "char_183_skgoat",
             "char_180_amgoat",
-            "char_426_billro"
+            "char_426_billro",
+            "char_4046_ebnhlz",
+            "char_4047_pianst",
+            "char_1016_agoat2",
+            "char_4098_vvana",
+            "char_4109_baslin",
+            "char_4011_lessng",
+            "char_499_kaitou"
           ],
           "forceId": "leithanien",
           "pos": {
-            "x": -150.0,
-            "y": 86.60254
+            "x": -300.0,
+            "y": 173.205078
           },
           "isThisGroup": true,
           "connectPos": 3,
@@ -6992,6 +11018,26 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_1016_agoat2",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_499_kaitou",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4109_baslin",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4046_ebnhlz",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": "char_180_amgoat",
               "forceId": null
@@ -7008,8 +11054,28 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4098_vvana",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_1016_agoat2",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_183_skgoat",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4046_ebnhlz",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4047_pianst",
               "forceId": null
             },
             {
@@ -7029,8 +11095,18 @@
           },
           "connectionList": [
             {
+              "direction": 1,
+              "charId": "char_4098_vvana",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_180_amgoat",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4047_pianst",
               "forceId": null
             }
           ],
@@ -7045,6 +11121,193 @@
           },
           "connectionList": [],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_4046_ebnhlz",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_180_amgoat",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_183_skgoat",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4109_baslin",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4011_lessng",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4047_pianst",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4047_pianst",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_426_billro",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_180_amgoat",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4046_ebnhlz",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1016_agoat2",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_183_skgoat",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_180_amgoat",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4098_vvana",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4098_vvana",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_1016_agoat2",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_180_amgoat",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_426_billro",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4109_baslin",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 0.0
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_183_skgoat",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_499_kaitou",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4011_lessng",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4046_ebnhlz",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4011_lessng",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4046_ebnhlz",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4109_baslin",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_499_kaitou",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_4109_baslin",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_183_skgoat",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -7053,6 +11316,12 @@
           "lineType": 0,
           "char1": "char_344_beewax",
           "char2": "char_426_billro"
+        },
+        {
+          "index": 121,
+          "lineType": 0,
+          "char1": "char_1016_agoat2",
+          "char2": "char_180_amgoat"
         }
       ],
       "minScale": 0.75,
@@ -7078,6 +11347,25 @@
             "y": 0.0
           },
           "colorBlocks": []
+        },
+        {
+          "color": "0098dc",
+          "charList": [
+            "char_4087_ines",
+            "char_4088_hodrer"
+          ],
+          "forceId": "rhodes",
+          "pos": {
+            "x": -450.0,
+            "y": 86.60254
+          },
+          "isThisGroup": false,
+          "connectPos": 3,
+          "focusPos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "colorBlocks": []
         }
       ],
       "charList": [
@@ -7090,9 +11378,60 @@
           },
           "connectionList": [],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_4087_ines",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": 0.0
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_4088_hodrer",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4088_hodrer",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4087_ines",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
-      "lineList": [],
+      "lineList": [
+        {
+          "index": 0,
+          "lineType": 0,
+          "char1": "char_4087_ines",
+          "char2": "char_113_cqbw"
+        },
+        {
+          "index": 37,
+          "lineType": 0,
+          "char1": "char_4088_hodrer",
+          "char2": "char_4087_ines"
+        },
+        {
+          "index": 38,
+          "lineType": 0,
+          "char1": "char_4088_hodrer",
+          "char2": "char_113_cqbw"
+        }
+      ],
       "minScale": 0.75,
       "maxScale": 2.0
     },
@@ -7106,7 +11445,10 @@
             "char_293_thorns",
             "char_129_bluep",
             "char_326_glacus",
-            "char_469_indigo"
+            "char_469_indigo",
+            "char_4009_irene",
+            "char_4042_lumen",
+            "char_4066_highmo"
           ],
           "forceId": "iberia",
           "pos": {
@@ -7131,6 +11473,16 @@
             "y": 0.0
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4009_irene",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4042_lumen",
+              "forceId": null
+            },
             {
               "direction": 2,
               "charId": "char_469_indigo",
@@ -7189,6 +11541,11 @@
           },
           "connectionList": [
             {
+              "direction": 1,
+              "charId": "char_4009_irene",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_326_glacus",
               "forceId": null
@@ -7236,6 +11593,16 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": "char_4042_lumen",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_4066_highmo",
+              "forceId": null
+            },
+            {
               "direction": 4,
               "charId": "char_129_bluep",
               "forceId": null
@@ -7243,6 +11610,84 @@
             {
               "direction": 5,
               "charId": "char_326_glacus",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4009_irene",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4042_lumen",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_326_glacus",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_293_thorns",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4042_lumen",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4066_highmo",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_469_indigo",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_326_glacus",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4009_irene",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4066_highmo",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 259.807617
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_469_indigo",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_4042_lumen",
               "forceId": null
             }
           ],
@@ -7278,10 +11723,11 @@
         {
           "color": "412471",
           "charList": [
-            "char_263_skadi",
-            "char_143_ghost",
             "char_474_glady",
-            "char_218_cuttle"
+            "char_218_cuttle",
+            "char_1023_ghost2",
+            "char_143_ghost",
+            "char_263_skadi"
           ],
           "forceId": "abyssal",
           "pos": {
@@ -7366,6 +11812,11 @@
               "forceId": null
             },
             {
+              "direction": 3,
+              "charId": "char_1023_ghost2",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": "char_474_glady",
               "forceId": null
@@ -7425,6 +11876,22 @@
             }
           ],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_1023_ghost2",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": -173.205078
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_143_ghost",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -7445,6 +11912,24 @@
           "lineType": 0,
           "char1": "char_143_ghost",
           "char2": "char_263_skadi"
+        },
+        {
+          "index": 6,
+          "lineType": 0,
+          "char1": "char_1023_ghost2",
+          "char2": "char_143_ghost"
+        },
+        {
+          "index": 7,
+          "lineType": 0,
+          "char1": "char_1023_ghost2",
+          "char2": "char_263_skadi"
+        },
+        {
+          "index": 8,
+          "lineType": 0,
+          "char1": "char_1023_ghost2",
+          "char2": "char_474_glady"
         }
       ],
       "minScale": 0.75,
@@ -7459,7 +11944,8 @@
             "char_159_peacok",
             "char_485_pallas",
             "char_163_hpsts",
-            "char_333_sidero"
+            "char_333_sidero",
+            "char_4043_erato"
           ],
           "forceId": "minos",
           "pos": {
@@ -7495,6 +11981,11 @@
               "forceId": null
             },
             {
+              "direction": 2,
+              "charId": "char_4043_erato",
+              "forceId": null
+            },
+            {
               "direction": 5,
               "charId": "char_333_sidero",
               "forceId": null
@@ -7510,6 +12001,11 @@
             "y": 86.60254
           },
           "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_4043_erato",
+              "forceId": null
+            },
             {
               "direction": 4,
               "charId": "char_485_pallas",
@@ -7569,9 +12065,190 @@
             }
           ],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_4043_erato",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 0.0
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_159_peacok",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_485_pallas",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [],
+      "minScale": 0.75,
+      "maxScale": 2.0
+    },
+    "bolivar": {
+      "groupId": "bolivar",
+      "forceDataList": [
+        {
+          "color": "03F0F0",
+          "charList": [
+            "char_253_greyy",
+            "char_421_crow",
+            "char_486_takila",
+            "char_4100_caper"
+          ],
+          "forceId": "bolivar",
+          "pos": {
+            "x": -150.0,
+            "y": -86.60254
+          },
+          "isThisGroup": true,
+          "connectPos": 2,
+          "focusPos": {
+            "x": -60.4247627,
+            "y": 25.52964
+          },
+          "colorBlocks": []
+        },
+        {
+          "color": "0098dc",
+          "charList": [
+            "char_1027_greyy2"
+          ],
+          "forceId": "rhodes",
+          "pos": {
+            "x": -300.0,
+            "y": 173.205078
+          },
+          "isThisGroup": false,
+          "connectPos": 2,
+          "focusPos": {
+            "x": 88.29994,
+            "y": -138.814957
+          },
+          "colorBlocks": []
+        }
+      ],
+      "charList": [
+        {
+          "charId": "char_253_greyy",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_486_takila",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_421_crow",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_486_takila",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 3,
+              "charId": "char_4100_caper",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_421_crow",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_253_greyy",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_421_crow",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": -86.60254
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_253_greyy",
+              "forceId": null
+            },
+            {
+              "direction": 1,
+              "charId": "char_486_takila",
+              "forceId": null
+            },
+            {
+              "direction": 2,
+              "charId": "char_4100_caper",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1027_greyy2",
+          "scale": 1.0,
+          "pos": {
+            "x": -150.0,
+            "y": 259.807617
+          },
+          "connectionList": [],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4100_caper",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 0.0
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_486_takila",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_421_crow",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        }
+      ],
+      "lineList": [
+        {
+          "index": 0,
+          "lineType": 0,
+          "char1": "char_1027_greyy2",
+          "char2": "char_253_greyy"
+        }
+      ],
       "minScale": 0.75,
       "maxScale": 2.0
     }
@@ -7585,6 +12262,7 @@
     "reserve4": "rhodes",
     "reserve6": "rhodes",
     "kazimierz": "kazimierz",
+    "pinus": "kazimierz",
     "followers": "followers",
     "lgd": "lungmen",
     "lungmen": "lungmen",
@@ -7599,6 +12277,7 @@
     "sargon": "sargon",
     "victoria": "victoria",
     "glasgow": "victoria",
+    "dublinn": "victoria",
     "ursus": "ursus",
     "student": "ursus",
     "karlan": "kjerag",
@@ -7613,6 +12292,7 @@
     "iberia": "iberia",
     "egir": "egir",
     "abyssal": "egir",
-    "minos": "minos"
+    "minos": "minos",
+    "bolivar": "bolivar"
   }
 }

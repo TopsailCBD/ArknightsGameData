@@ -5,11 +5,51 @@
       "avatarId": "avatar_ass_01",
       "avatarType": "ASSISTANT",
       "avatarIdSort": 1,
-      "avatarIdDesc": "来自看板助理\\n{0}",
+      "avatarIdDesc": "来自当前助理\\n{0}",
       "avatarItemName": "助理干员",
-      "avatarItemDesc": "助理干员面部截图，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
+    },
+    {
+      "avatarId": "avatar_activity_OF",
+      "avatarType": "ACTIVITY",
+      "avatarIdSort": 1,
+      "avatarIdDesc": "【火蓝之心】记录修复\\n“火蓝之心”",
+      "avatarItemName": "“火蓝之心”",
+      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemUsage": "锡兰和黑不会忘记那片碧波荡漾的滨水沙滩，还有远处偶尔冒烟的火山。",
+      "obtainApproach": "记录修复获得"
+    },
+    {
+      "avatarId": "avatar_activity_GK",
+      "avatarType": "ACTIVITY",
+      "avatarIdSort": 2,
+      "avatarIdDesc": "【骑兵与猎人】记录修复\\n“骑兵与猎人”",
+      "avatarItemName": "“骑兵与猎人”",
+      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemUsage": "骑警伸张正义，猎人随遇而安。",
+      "obtainApproach": "记录修复获得"
+    },
+    {
+      "avatarId": "avatar_activity_OI",
+      "avatarType": "ACTIVITY",
+      "avatarIdSort": 3,
+      "avatarIdDesc": "【战地秘闻】记录修复\\n“战地秘闻”",
+      "avatarItemName": "“战地秘闻”",
+      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemUsage": "她去过许多地方，听过许多故事。",
+      "obtainApproach": "记录修复获得"
+    },
+    {
+      "avatarId": "avatar_activity_CB",
+      "avatarType": "ACTIVITY",
+      "avatarIdSort": 4,
+      "avatarIdDesc": "【喧闹法则】记录修复\\n“喧闹法则”",
+      "avatarItemName": "“喧闹法则”",
+      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemUsage": "闹剧？大帝可喜欢闹剧了。你呢？",
+      "obtainApproach": "记录修复获得"
     },
     {
       "avatarId": "avatar_def_01",
@@ -17,7 +57,7 @@
       "avatarIdSort": 1,
       "avatarIdDesc": "默认头像 \\n“符号”",
       "avatarItemName": "“符号”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -27,7 +67,7 @@
       "avatarIdSort": 2,
       "avatarIdDesc": "默认头像 \\n“档案室”",
       "avatarItemName": "“档案室”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -37,7 +77,7 @@
       "avatarIdSort": 3,
       "avatarIdDesc": "默认头像 \\n“从此出”",
       "avatarItemName": "“从此出”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -47,7 +87,7 @@
       "avatarIdSort": 4,
       "avatarIdDesc": "默认头像 \\n“注意大黑”",
       "avatarItemName": "“注意大黑”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -57,7 +97,7 @@
       "avatarIdSort": 5,
       "avatarIdDesc": "默认头像 \\n“补充简历”",
       "avatarItemName": "“补充简历”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -67,7 +107,7 @@
       "avatarIdSort": 6,
       "avatarIdDesc": "默认头像 \\n“3min”",
       "avatarItemName": "“3min”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -77,7 +117,7 @@
       "avatarIdSort": 7,
       "avatarIdDesc": "默认头像 \\n“Good Game”",
       "avatarItemName": "“Good Game”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -87,7 +127,7 @@
       "avatarIdSort": 8,
       "avatarIdDesc": "默认头像 \\n“PRTS”",
       "avatarItemName": "“PRTS”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -97,7 +137,7 @@
       "avatarIdSort": 9,
       "avatarIdDesc": "默认头像 \\n“希望消逝”",
       "avatarItemName": "“希望消逝”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -107,7 +147,7 @@
       "avatarIdSort": 10,
       "avatarIdDesc": "默认头像 \\n“请勿模仿”",
       "avatarItemName": "“请勿模仿”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -117,7 +157,7 @@
       "avatarIdSort": 11,
       "avatarIdDesc": "默认头像 \\n“晚餐”",
       "avatarItemName": "“晚餐”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -127,7 +167,7 @@
       "avatarIdSort": 12,
       "avatarIdDesc": "默认头像 \\n“禁止加班”",
       "avatarItemName": "“禁止加班”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -137,7 +177,7 @@
       "avatarIdSort": 13,
       "avatarIdDesc": "默认头像 \\n“球体”",
       "avatarItemName": "“球体”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -147,7 +187,7 @@
       "avatarIdSort": 14,
       "avatarIdDesc": "默认头像 \\n“沙漠金币”",
       "avatarItemName": "“沙漠金币”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     },
@@ -157,7 +197,7 @@
       "avatarIdSort": 15,
       "avatarIdDesc": "默认头像 \\n“WARNING”",
       "avatarItemName": "“WARNING”",
-      "avatarItemDesc": "用来彰显个性的图案，能够将之设置为头像。",
+      "avatarItemDesc": "\\",
       "avatarItemUsage": "\\",
       "obtainApproach": "默认投放"
     }
@@ -165,9 +205,19 @@
   "avatarTypeData": {
     "ASSISTANT": {
       "avatarType": "ASSISTANT",
-      "typeName": "看板助理",
+      "typeName": "当前助理",
       "avatarIdList": [
         "avatar_ass_01"
+      ]
+    },
+    "ACTIVITY": {
+      "avatarType": "ACTIVITY",
+      "typeName": "活动头像",
+      "avatarIdList": [
+        "avatar_activity_OF",
+        "avatar_activity_GK",
+        "avatar_activity_OI",
+        "avatar_activity_CB"
       ]
     },
     "DEFAULT": {
@@ -190,11 +240,6 @@
         "avatar_def_14",
         "avatar_def_15"
       ]
-    },
-    "ACTIVITY": {
-      "avatarType": "ACTIVITY",
-      "typeName": "活动头像",
-      "avatarIdList": []
     }
   }
 }

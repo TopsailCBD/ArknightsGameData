@@ -134,7 +134,7 @@
 [Character(name="char_1002_nsabr_2", name2="avg_npc_046#2", focus=2)]
 [name="W"]  我问的是敌人的尸体，伊内丝可不会什么夸张的杀伤性法术。
 [Character(name="char_1002_nsabr_2", name2="avg_npc_046#2", focus=1)]
-[name="整合运动士兵"]  我们的术士也参加了战斗，整条街道都毁于一旦。 
+[name="整合运动士兵"]  我们的术师也参加了战斗，整条街道都毁于一旦。 
 [Character(name="char_1002_nsabr_2", name2="avg_npc_046#2", focus=2)]
 [name="W"]  ——你们这也太明目张胆了吧？
 [Character(name="char_1002_nsabr_2", name2="avg_npc_046#2", focus=1)]
@@ -262,7 +262,7 @@
 [Character(name="avg_npc_047", name2="avg_npc_046#2", focus=2)]
 [name="W"]  唉，这种事情还用瞒吗？
 [name="W"]  只要正面打上两架，那些过去在战场上小有名气的人，自然能认出对面是何方神圣。
-[name="W"]  毕竟那些人还实实在在的活着，这也是没办法的事情。
+[name="W"]  毕竟那些人还实实在在地活着，这也是没办法的事情。
 [Character(name="avg_npc_047", name2="avg_npc_046#2", focus=1)]
 [name="赫德雷"]  你要打算怎么做？和他们发生冲突本来就完全是意料之外的事情。
 [name="赫德雷"]  如果罗德岛这家制药公司真的还是凯尔希做主，也许会是个突破口......
